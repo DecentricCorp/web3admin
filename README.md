@@ -17,6 +17,11 @@ setTimeout(function(){
  }, 1000)
 ```
 
+### Demo
+```
+node index.js
+```
+
 |module|type|name
 |---|---|---|
 admin|method|`addPeer()`
@@ -54,3 +59,4 @@ txpool|property|`status`
 
 Extracted from [Mist Wallet](https://github.com/ethereum/mist)
 Modularized by [Shannon Code](http://twitter.com/shannonNullCode)
+c/o [Loyyal](http://loyyal.com)
