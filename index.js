@@ -26,4 +26,5 @@ setTimeout(function(){
     console.log("isMining?", web3.eth.mining)
     console.log("turning on mining", web3.miner.start())
     console.log("isMining?", web3.eth.mining)
+    console.log("txpool", web3.txpool.status)
 }, 1000)

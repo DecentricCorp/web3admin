@@ -244,7 +244,6 @@ module.exports = {
             ]
         });
 
-
         // TX POOL
         web3._extend({
             property: 'txpool',
