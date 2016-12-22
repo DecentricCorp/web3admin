@@ -1,7 +1,8 @@
 {
   "name": "web3admin",
-  "version": "0.4.2",
-  "description": "Module that extends web3",
+  "version": "0.4.4",
+  "repository": "https://github.com/DecentricCorp/web3admin",
+  "description": "Module that extends web3 with support for admin, debug, network, minor support. ",
   "main": "web3admin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

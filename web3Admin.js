@@ -10,7 +10,7 @@ module.exports = {
                     name: 'addPeer',
                     call: 'admin_addPeer',
                     params: 1,
-                    inputFormatter: [web3._extend.utils.fromDecimal],
+                    inputFormatter: [web3._extend.utils.formatInputString],
                     outputFormatter: web3._extend.formatters.formatOutputBool
                 }),
                 new web3._extend.Method({
@@ -204,13 +204,6 @@ module.exports = {
             property: 'network',
             methods:
             [
-                new web3._extend.Method({
-                    name: 'addPeer',
-                    call: 'net_addPeer',
-                    params: 1,
-                    inputFormatter: [web3._extend.utils.formatInputString],
-                    outputFormatter: web3._extend.formatters.formatOutputBool
-                }),
                 new web3._extend.Method({
                     name: 'getPeerCount',
                     call: 'net_peerCount',
