@@ -149,8 +149,8 @@ module.exports = {
                 new web3._extend.Method({
                     name: 'stop',
                     call: 'miner_stop',
-                    params: 1,
-                    inputFormatter: [web3._extend.formatters.formatInputInt],
+                    params: 0,
+                    inputFormatter: [],
                     outputFormatter: web3._extend.formatters.formatOutputBool
                 }),
                 new web3._extend.Method({
